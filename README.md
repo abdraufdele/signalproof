@@ -103,7 +103,12 @@ The optional purchase proposal names an `api.messari.io` Ethereum-context resour
 
 ## Installation on PayBox
 
-1. Obtain this repository after its GitHub review checkpoint. **TODO:** repository URL will be added after the approved private push.
+1. Clone the [private repository](https://github.com/abdraufdele/signalproof) using an account with access:
+
+   ```sh
+   git clone https://github.com/abdraufdele/signalproof.git
+   cd signalproof
+   ```
 2. From the repository root, install and check the plugin:
 
    ```sh
@@ -254,7 +259,7 @@ The three saved **0.6.0 installed-agent** research calls succeeded on 17 October
 - Optional paid context is broad Ethereum research; token-specific relevance and a completed paid-response workflow have not been demonstrated.
 - **Open evidence checks:** installed-agent timestamps lagged local receipt by about 90 seconds. Delivery-time freshness remains unverified. The MCP responses did not attest the deployed version/hash; installation-to-portal mapping needs confirmation.
 - **Remaining delivery work:** genuine user feedback, a reviewed recorded demo and the required X video publication. No participant usefulness claim is established yet.
-- **TODO:** choose a source-code license, add a public contact route, and insert the real private GitHub URL after the approved push. No source license is granted by this README.
+- **TODO:** choose a source-code license and add a public contact route. No source license is granted by this README.
 
 ## License and contact
 
