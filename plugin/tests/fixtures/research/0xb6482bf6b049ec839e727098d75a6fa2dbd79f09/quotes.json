@@ -1,0 +1,317 @@
+[
+  {
+    "inputUsdc": 25,
+    "buy": {
+      "url": "https://api.0x.org/swap/allowance-holder/price?chainId=8453&sellToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&buyToken=0xb6482bf6b049ec839e727098d75a6fa2dbd79f09&sellAmount=25000000",
+      "requestedAt": "2026-10-16T19:09:18.091723+00:00",
+      "receivedAt": "2026-10-16T19:09:18.997049+00:00",
+      "elapsedMs": 905,
+      "httpStatus": 200,
+      "bodySha256": "b8e34250b1d943cb1c14433f4c85f517a1cc59c79478854630079efacb3057cf",
+      "body": {
+        "allowanceTarget": "0x0000000000001ff3684f28c67538d4d072c22734",
+        "blockNumber": "52694205",
+        "buyAmount": "1872893165812413810853286425",
+        "buyToken": "0xb6482bf6b049ec839e727098d75a6fa2dbd79f09",
+        "fees": {
+          "integratorFee": null,
+          "integratorFees": null,
+          "zeroExFee": {
+            "amount": "37500",
+            "token": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "type": "volume"
+          },
+          "gasFee": null
+        },
+        "issues": {
+          "allowance": {
+            "actual": "0",
+            "spender": "0x0000000000001ff3684f28c67538d4d072c22734"
+          },
+          "balance": {
+            "token": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "actual": "0",
+            "expected": "25000000"
+          },
+          "simulationIncomplete": false,
+          "invalidSourcesPassed": []
+        },
+        "liquidityAvailable": true,
+        "minBuyAmount": "1854164234154289672744753561",
+        "mode": "exact-in",
+        "route": {
+          "fills": [
+            {
+              "from": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+              "to": "0x4200000000000000000000000000000000000006",
+              "source": "Aerodrome_V3",
+              "proportionBps": "10000"
+            },
+            {
+              "from": "0x4200000000000000000000000000000000000006",
+              "to": "0xb6482bf6b049ec839e727098d75a6fa2dbd79f09",
+              "source": "Uniswap_V2",
+              "proportionBps": "10000"
+            }
+          ],
+          "tokens": [
+            {
+              "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+              "symbol": "USDC"
+            },
+            {
+              "address": "0x4200000000000000000000000000000000000006",
+              "symbol": "WETH"
+            },
+            {
+              "address": "0xb6482bf6b049ec839e727098d75a6fa2dbd79f09",
+              "symbol": "LIQUIDBGT"
+            }
+          ]
+        },
+        "sellAmount": "25000000",
+        "sellToken": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "tokenMetadata": {
+          "buyToken": {
+            "buyTaxBps": "0",
+            "sellTaxBps": "0",
+            "transferTaxBps": "0"
+          },
+          "sellToken": {
+            "buyTaxBps": "0",
+            "sellTaxBps": "0",
+            "transferTaxBps": "0"
+          }
+        },
+        "totalNetworkFee": "3890551514562",
+        "zid": "0x958b5b60eba3a45bd3a8c6c6",
+        "gas": "474616",
+        "gasPrice": "8185388"
+      }
+    },
+    "sellBack": {
+      "url": "https://api.0x.org/swap/allowance-holder/price?chainId=8453&sellToken=0xb6482bf6b049ec839e727098d75a6fa2dbd79f09&buyToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&sellAmount=1872893165812413810853286425",
+      "requestedAt": "2026-10-16T19:09:19.191950+00:00",
+      "receivedAt": "2026-10-16T19:09:20.068129+00:00",
+      "elapsedMs": 876,
+      "httpStatus": 200,
+      "bodySha256": "04fb805f5551452fce65a7faea3d9e3c313d415eae9ccefb7ff350d601517cba",
+      "body": {
+        "liquidityAvailable": false,
+        "zid": "0xe2cf7d6620d830e69a6cee62"
+      }
+    }
+  },
+  {
+    "inputUsdc": 100,
+    "buy": {
+      "url": "https://api.0x.org/swap/allowance-holder/price?chainId=8453&sellToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&buyToken=0xb6482bf6b049ec839e727098d75a6fa2dbd79f09&sellAmount=100000000",
+      "requestedAt": "2026-10-16T19:09:20.292107+00:00",
+      "receivedAt": "2026-10-16T19:09:21.265976+00:00",
+      "elapsedMs": 965,
+      "httpStatus": 200,
+      "bodySha256": "c90fa27edcb284e35b8ecc01fdc3c9bc40f79a5af3b35a7334195396a013a45a",
+      "body": {
+        "allowanceTarget": "0x0000000000001ff3684f28c67538d4d072c22734",
+        "blockNumber": "52694207",
+        "buyAmount": "1872895696042110303784341195",
+        "buyToken": "0xb6482bf6b049ec839e727098d75a6fa2dbd79f09",
+        "fees": {
+          "integratorFee": null,
+          "integratorFees": null,
+          "zeroExFee": {
+            "amount": "150000",
+            "token": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "type": "volume"
+          },
+          "gasFee": null
+        },
+        "issues": {
+          "allowance": {
+            "actual": "0",
+            "spender": "0x0000000000001ff3684f28c67538d4d072c22734"
+          },
+          "balance": {
+            "token": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "actual": "0",
+            "expected": "100000000"
+          },
+          "simulationIncomplete": false,
+          "invalidSourcesPassed": []
+        },
+        "liquidityAvailable": true,
+        "minBuyAmount": "1854166739081689200746497783",
+        "mode": "exact-in",
+        "route": {
+          "fills": [
+            {
+              "from": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+              "to": "0x4200000000000000000000000000000000000006",
+              "source": "PancakeSwap_V3",
+              "proportionBps": "10000"
+            },
+            {
+              "from": "0x4200000000000000000000000000000000000006",
+              "to": "0xb6482bf6b049ec839e727098d75a6fa2dbd79f09",
+              "source": "Uniswap_V2",
+              "proportionBps": "10000"
+            }
+          ],
+          "tokens": [
+            {
+              "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+              "symbol": "USDC"
+            },
+            {
+              "address": "0x4200000000000000000000000000000000000006",
+              "symbol": "WETH"
+            },
+            {
+              "address": "0xb6482bf6b049ec839e727098d75a6fa2dbd79f09",
+              "symbol": "LIQUIDBGT"
+            }
+          ]
+        },
+        "sellAmount": "100000000",
+        "sellToken": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "tokenMetadata": {
+          "buyToken": {
+            "buyTaxBps": "0",
+            "sellTaxBps": "0",
+            "transferTaxBps": "0"
+          },
+          "sellToken": {
+            "buyTaxBps": "0",
+            "sellTaxBps": "0",
+            "transferTaxBps": "0"
+          }
+        },
+        "totalNetworkFee": "3211822418856",
+        "zid": "0xb17468434bb9855b04e21f96",
+        "gas": "391688",
+        "gasPrice": "8185388"
+      }
+    },
+    "sellBack": {
+      "url": "https://api.0x.org/swap/allowance-holder/price?chainId=8453&sellToken=0xb6482bf6b049ec839e727098d75a6fa2dbd79f09&buyToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&sellAmount=1872895696042110303784341195",
+      "requestedAt": "2026-10-16T19:09:21.400756+00:00",
+      "receivedAt": "2026-10-16T19:09:22.374748+00:00",
+      "elapsedMs": 974,
+      "httpStatus": 200,
+      "bodySha256": "1b4afa458103207308e77951382b93d839202ee5e7b08672d19d1cb103fa2a00",
+      "body": {
+        "liquidityAvailable": false,
+        "zid": "0x3d6043f4a5de85f46ae31155"
+      }
+    }
+  },
+  {
+    "inputUsdc": 500,
+    "buy": {
+      "url": "https://api.0x.org/swap/allowance-holder/price?chainId=8453&sellToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&buyToken=0xb6482bf6b049ec839e727098d75a6fa2dbd79f09&sellAmount=500000000",
+      "requestedAt": "2026-10-16T19:09:22.500956+00:00",
+      "receivedAt": "2026-10-16T19:09:23.488082+00:00",
+      "elapsedMs": 987,
+      "httpStatus": 200,
+      "bodySha256": "4518f30a148a399590d3af136d3e61e1b5a5af22b3ca3730b9e3cd8053a1ad10",
+      "body": {
+        "allowanceTarget": "0x0000000000001ff3684f28c67538d4d072c22734",
+        "blockNumber": "52694208",
+        "buyAmount": "1872896370792083083300067297",
+        "buyToken": "0xb6482bf6b049ec839e727098d75a6fa2dbd79f09",
+        "fees": {
+          "integratorFee": null,
+          "integratorFees": null,
+          "zeroExFee": {
+            "amount": "750000",
+            "token": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "type": "volume"
+          },
+          "gasFee": null
+        },
+        "issues": {
+          "allowance": {
+            "actual": "0",
+            "spender": "0x0000000000001ff3684f28c67538d4d072c22734"
+          },
+          "balance": {
+            "token": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "actual": "0",
+            "expected": "500000000"
+          },
+          "simulationIncomplete": false,
+          "invalidSourcesPassed": []
+        },
+        "liquidityAvailable": true,
+        "minBuyAmount": "1854167407084162252467066624",
+        "mode": "exact-in",
+        "route": {
+          "fills": [
+            {
+              "from": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+              "to": "0x4200000000000000000000000000000000000006",
+              "source": "PancakeSwap_V3",
+              "proportionBps": "19"
+            },
+            {
+              "from": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+              "to": "0x4200000000000000000000000000000000000006",
+              "source": "AlienBase_V3",
+              "proportionBps": "9981"
+            },
+            {
+              "from": "0x4200000000000000000000000000000000000006",
+              "to": "0xb6482bf6b049ec839e727098d75a6fa2dbd79f09",
+              "source": "Uniswap_V2",
+              "proportionBps": "10000"
+            }
+          ],
+          "tokens": [
+            {
+              "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+              "symbol": "USDC"
+            },
+            {
+              "address": "0x4200000000000000000000000000000000000006",
+              "symbol": "WETH"
+            },
+            {
+              "address": "0xb6482bf6b049ec839e727098d75a6fa2dbd79f09",
+              "symbol": "LIQUIDBGT"
+            }
+          ]
+        },
+        "sellAmount": "500000000",
+        "sellToken": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "tokenMetadata": {
+          "buyToken": {
+            "buyTaxBps": "0",
+            "sellTaxBps": "0",
+            "transferTaxBps": "0"
+          },
+          "sellToken": {
+            "buyTaxBps": "0",
+            "sellTaxBps": "0",
+            "transferTaxBps": "0"
+          }
+        },
+        "totalNetworkFee": "3612544160465",
+        "zid": "0x5d39b710674c146444604d74",
+        "gas": "477848",
+        "gasPrice": "7547452"
+      }
+    },
+    "sellBack": {
+      "url": "https://api.0x.org/swap/allowance-holder/price?chainId=8453&sellToken=0xb6482bf6b049ec839e727098d75a6fa2dbd79f09&buyToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&sellAmount=1872896370792083083300067297",
+      "requestedAt": "2026-10-16T19:09:23.601139+00:00",
+      "receivedAt": "2026-10-16T19:09:24.570731+00:00",
+      "elapsedMs": 970,
+      "httpStatus": 200,
+      "bodySha256": "2ec4efdc8221d09e4866e94da79281c5bb1931acae7d57819e9a6972da6d7b87",
+      "body": {
+        "liquidityAvailable": false,
+        "zid": "0x9c8c270e1c836ffb49199f42"
+      }
+    }
+  }
+]

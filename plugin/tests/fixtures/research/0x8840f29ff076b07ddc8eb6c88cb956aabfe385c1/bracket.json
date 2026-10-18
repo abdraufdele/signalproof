@@ -1,0 +1,12 @@
+{
+  "url": "https://api.0x.org/swap/allowance-holder/price?chainId=8453&sellToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&buyToken=0x8840f29ff076b07ddc8eb6c88cb956aabfe385c1&sellAmount=25000000",
+  "requestedAt": "2026-10-16T19:09:10.004788+00:00",
+  "receivedAt": "2026-10-16T19:09:11.438273+00:00",
+  "elapsedMs": 1433,
+  "httpStatus": 200,
+  "bodySha256": "8fac45e35fbfecad437ab7363e5ba2fccfdc3f99c81defb200afc4921c0fb91e",
+  "body": {
+    "liquidityAvailable": false,
+    "zid": "0x2f09068e72e8e9af72e6b3fc"
+  }
+}

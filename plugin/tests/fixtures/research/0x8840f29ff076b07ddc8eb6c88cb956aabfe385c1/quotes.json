@@ -1,0 +1,50 @@
+[
+  {
+    "inputUsdc": 25,
+    "buy": {
+      "url": "https://api.0x.org/swap/allowance-holder/price?chainId=8453&sellToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&buyToken=0x8840f29ff076b07ddc8eb6c88cb956aabfe385c1&sellAmount=25000000",
+      "requestedAt": "2026-10-16T19:09:04.462675+00:00",
+      "receivedAt": "2026-10-16T19:09:05.422145+00:00",
+      "elapsedMs": 959,
+      "httpStatus": 200,
+      "bodySha256": "ced071cdfb124564dfeb007807bbed183c1718c813048f9c84d8f86c46d9d453",
+      "body": {
+        "liquidityAvailable": false,
+        "zid": "0xa95debaa1c9faad46376d715"
+      }
+    },
+    "sellBack": null
+  },
+  {
+    "inputUsdc": 100,
+    "buy": {
+      "url": "https://api.0x.org/swap/allowance-holder/price?chainId=8453&sellToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&buyToken=0x8840f29ff076b07ddc8eb6c88cb956aabfe385c1&sellAmount=100000000",
+      "requestedAt": "2026-10-16T19:09:05.562858+00:00",
+      "receivedAt": "2026-10-16T19:09:06.770420+00:00",
+      "elapsedMs": 1167,
+      "httpStatus": 200,
+      "bodySha256": "0e59a94bafaa60b6b558258e36f73d2da6f36cbc7d5dad2459592066d17e139b",
+      "body": {
+        "liquidityAvailable": false,
+        "zid": "0x353b44587c480f4bb5d2728e"
+      }
+    },
+    "sellBack": null
+  },
+  {
+    "inputUsdc": 500,
+    "buy": {
+      "url": "https://api.0x.org/swap/allowance-holder/price?chainId=8453&sellToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&buyToken=0x8840f29ff076b07ddc8eb6c88cb956aabfe385c1&sellAmount=500000000",
+      "requestedAt": "2026-10-16T19:09:07.804458+00:00",
+      "receivedAt": "2026-10-16T19:09:08.726936+00:00",
+      "elapsedMs": 923,
+      "httpStatus": 200,
+      "bodySha256": "1384e61de95f5bf35eeacc6a42f5b0aba9d5dde26d742e5a681a43e03abba6c9",
+      "body": {
+        "liquidityAvailable": false,
+        "zid": "0xfb4337d66d9f6908ad2faeb8"
+      }
+    },
+    "sellBack": null
+  }
+]

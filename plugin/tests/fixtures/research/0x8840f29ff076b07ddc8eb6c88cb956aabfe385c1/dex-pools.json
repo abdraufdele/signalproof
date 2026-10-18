@@ -1,0 +1,68 @@
+{
+  "url": "https://api.dexscreener.com/token-pairs/v1/base/0x8840f29ff076b07ddc8eb6c88cb956aabfe385c1",
+  "requestedAt": "2026-10-16T19:08:59.082690+00:00",
+  "receivedAt": "2026-10-16T19:08:59.597004+00:00",
+  "elapsedMs": 514,
+  "httpStatus": 200,
+  "bodySha256": "0072789fdf6a892a5f39da9d5500c0ab713ac66571b04596cc0b6f1e07fe3863",
+  "body": [
+    {
+      "chainId": "base",
+      "dexId": "uniswap",
+      "url": "https://dexscreener.com/base/0x732bf1a9827ac3da283c255a63a078341395b3209bb520146ea6f0970027b4f9",
+      "pairAddress": "0x732bf1a9827ac3da283c255a63a078341395b3209bb520146ea6f0970027b4f9",
+      "labels": [
+        "v4"
+      ],
+      "baseToken": {
+        "address": "0x8840F29Ff076B07dDc8Eb6c88Cb956Aabfe385C1",
+        "name": "P2L",
+        "symbol": "P2L"
+      },
+      "quoteToken": {
+        "address": "0x0000000000000000000000000000000000000000",
+        "name": "Ether",
+        "symbol": "ETH"
+      },
+      "priceNative": "0.0000001326",
+      "priceUsd": "0.0003208",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 172,
+          "sells": 121
+        },
+        "h6": {
+          "buys": 172,
+          "sells": 121
+        },
+        "h24": {
+          "buys": 172,
+          "sells": 121
+        }
+      },
+      "volume": {
+        "h24": 202366.88,
+        "h6": 202366.88,
+        "h1": 202366.88,
+        "m5": 0
+      },
+      "priceChange": {
+        "h1": 254,
+        "h6": 254,
+        "h24": 254
+      },
+      "liquidity": {
+        "usd": 10930.1,
+        "base": 17033158,
+        "quote": 2.2601
+      },
+      "fdv": 320848,
+      "marketCap": 320848,
+      "pairCreatedAt": 1792175401000
+    }
+  ]
+}

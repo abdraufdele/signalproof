@@ -1,0 +1,138 @@
+{
+  "url": "https://api.coingecko.com/api/v3/onchain/networks/base/tokens/0xd86a66c9438a38a1b3b2f62bc1ef8b3c37b55f7a/pools?include=base_token%2Cquote_token%2Cdex",
+  "requestedAt": "2026-10-16T19:08:59.878208+00:00",
+  "receivedAt": "2026-10-16T19:09:01.195510+00:00",
+  "elapsedMs": 1362,
+  "httpStatus": 200,
+  "bodySha256": "973a136e797f14f68a63d3f638d383c54be67e64f4c1ea63dd52b0462006fff2",
+  "body": {
+    "data": [
+      {
+        "id": "base_0xc72f769d67e4636ce78e7053fd0d8c54cf9dd89c693c074842aac173fb8cfb78",
+        "type": "pool",
+        "attributes": {
+          "base_token_price_usd": "0.03302203518",
+          "base_token_price_native_currency": "0.0000120021476813163",
+          "quote_token_price_usd": "2399.9",
+          "quote_token_price_native_currency": "1.0",
+          "base_token_price_quote_token": "0.00001200214768",
+          "quote_token_price_base_token": "83318.4215485614",
+          "address": "0xc72f769d67e4636ce78e7053fd0d8c54cf9dd89c693c074842aac173fb8cfb78",
+          "name": "USDP / WETH 0.3%",
+          "pool_created_at": "2026-10-16T18:40:09Z",
+          "token_price_usd": "0.03302203518",
+          "fdv_usd": "330220351.8",
+          "market_cap_usd": null,
+          "price_change_percentage": {
+            "m5": "6.51",
+            "m15": "6.448",
+            "m30": "193634.111",
+            "h1": "193827.06",
+            "h6": "193827.06",
+            "h24": "193827.06"
+          },
+          "transactions": {
+            "m5": {
+              "buys": 7,
+              "sells": 7,
+              "buyers": 5,
+              "sellers": 5
+            },
+            "m15": {
+              "buys": 32,
+              "sells": 27,
+              "buyers": 5,
+              "sellers": 5
+            },
+            "m30": {
+              "buys": 69,
+              "sells": 51,
+              "buyers": 7,
+              "sellers": 6
+            },
+            "h1": {
+              "buys": 69,
+              "sells": 51,
+              "buyers": 7,
+              "sellers": 6
+            },
+            "h6": {
+              "buys": 69,
+              "sells": 51,
+              "buyers": 7,
+              "sellers": 6
+            },
+            "h24": {
+              "buys": 60,
+              "sells": 42,
+              "buyers": 7,
+              "sellers": 6
+            }
+          },
+          "volume_usd": {
+            "m5": "4.6842287879",
+            "m15": "2420.9751410974",
+            "m30": "32487.1794750159",
+            "h1": "32487.1794750159",
+            "h6": "32487.1794750159",
+            "h24": "32481.0211343978"
+          },
+          "reserve_in_usd": "66279.3682"
+        },
+        "relationships": {
+          "base_token": {
+            "data": {
+              "id": "base_0xd86a66c9438a38a1b3b2f62bc1ef8b3c37b55f7a",
+              "type": "token"
+            }
+          },
+          "quote_token": {
+            "data": {
+              "id": "base_0x4200000000000000000000000000000000000006",
+              "type": "token"
+            }
+          },
+          "dex": {
+            "data": {
+              "id": "uniswap-v4-base",
+              "type": "dex"
+            }
+          }
+        }
+      }
+    ],
+    "included": [
+      {
+        "id": "base_0xd86a66c9438a38a1b3b2f62bc1ef8b3c37b55f7a",
+        "type": "token",
+        "attributes": {
+          "address": "0xd86a66c9438a38a1b3b2f62bc1ef8b3c37b55f7a",
+          "name": "United States Dividend Program🔥",
+          "symbol": "USDP",
+          "decimals": 18,
+          "image_url": null,
+          "coingecko_coin_id": null
+        }
+      },
+      {
+        "id": "base_0x4200000000000000000000000000000000000006",
+        "type": "token",
+        "attributes": {
+          "address": "0x4200000000000000000000000000000000000006",
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "decimals": 18,
+          "image_url": "https://coin-images.coingecko.com/coins/images/39810/large/weth.png?1724139790",
+          "coingecko_coin_id": "l2-standard-bridged-weth-base"
+        }
+      },
+      {
+        "id": "uniswap-v4-base",
+        "type": "dex",
+        "attributes": {
+          "name": "Uniswap V4 (Base)"
+        }
+      }
+    ]
+  }
+}

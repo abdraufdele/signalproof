@@ -1,0 +1,204 @@
+{
+  "pool": {
+    "id": "base_0xc72f769d67e4636ce78e7053fd0d8c54cf9dd89c693c074842aac173fb8cfb78",
+    "type": "pool",
+    "attributes": {
+      "base_token_price_usd": "0.0330049641864193",
+      "base_token_price_native_currency": "0.0000120021476813163",
+      "quote_token_price_usd": "2401.07",
+      "quote_token_price_native_currency": "1.0",
+      "base_token_price_quote_token": "0.00001200214768",
+      "quote_token_price_base_token": "83318.4215485614",
+      "address": "0xc72f769d67e4636ce78e7053fd0d8c54cf9dd89c693c074842aac173fb8cfb78",
+      "name": "USDP / WETH 0.3%",
+      "pool_created_at": "2026-10-16T18:40:09Z",
+      "fdv_usd": "332039385.8",
+      "market_cap_usd": null,
+      "price_change_percentage": {
+        "m5": "-0.029",
+        "m15": "7.141",
+        "m30": "194895.321",
+        "h1": "194895.321",
+        "h6": "194895.321",
+        "h24": "194895.321"
+      },
+      "transactions": {
+        "m5": {
+          "buys": 3,
+          "sells": 2,
+          "buyers": 3,
+          "sellers": 2
+        },
+        "m15": {
+          "buys": 28,
+          "sells": 22,
+          "buyers": 5,
+          "sellers": 5
+        },
+        "m30": {
+          "buys": 65,
+          "sells": 46,
+          "buyers": 7,
+          "sellers": 6
+        },
+        "h1": {
+          "buys": 65,
+          "sells": 46,
+          "buyers": 7,
+          "sellers": 6
+        },
+        "h6": {
+          "buys": 65,
+          "sells": 46,
+          "buyers": 7,
+          "sellers": 6
+        },
+        "h24": {
+          "buys": 65,
+          "sells": 46,
+          "buyers": 7,
+          "sellers": 6
+        }
+      },
+      "volume_usd": {
+        "m5": "1.7827272682",
+        "m15": "2418.0736395777",
+        "m30": "32484.2779734962",
+        "h1": "32484.2779734962",
+        "h6": "32484.2779734962",
+        "h24": "32484.2779734962"
+      },
+      "reserve_in_usd": "66326.9176"
+    },
+    "relationships": {
+      "base_token": {
+        "data": {
+          "id": "base_0xd86a66c9438a38a1b3b2f62bc1ef8b3c37b55f7a",
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "id": "base_0x4200000000000000000000000000000000000006",
+          "type": "token"
+        }
+      },
+      "dex": {
+        "data": {
+          "id": "uniswap-v4-base",
+          "type": "dex"
+        }
+      }
+    }
+  },
+  "url": "https://api.coingecko.com/api/v3/onchain/networks/base/pools/0xc72f769d67e4636ce78e7053fd0d8c54cf9dd89c693c074842aac173fb8cfb78/trades?token=0xd86a66c9438a38a1b3b2f62bc1ef8b3c37b55f7a",
+  "requestedAt": "2026-10-16T19:09:04.238827+00:00",
+  "receivedAt": "2026-10-16T19:09:05.464709+00:00",
+  "elapsedMs": 1226,
+  "httpStatus": 200,
+  "bodySha256": "fd34a18973071761916d5f922e846df15b95554cba55e020557efaf6b5701e26",
+  "body": {
+    "data": [
+      {
+        "id": "base_52694194_0xdb11b72868cb686870ff40eda4e3839f194dc495d64618861ddbbfd10bff8e34_800_1792177741",
+        "type": "trade",
+        "attributes": {
+          "block_number": 52694194,
+          "block_timestamp": "2026-10-16T19:08:55Z",
+          "tx_hash": "0xdb11b72868cb686870ff40eda4e3839f194dc495d64618861ddbbfd10bff8e34",
+          "tx_from_address": "0xd80386a7f804b8c479704402caec8c50d3c412e7",
+          "kind": "sell",
+          "from_token_address": "0xd86a66c9438a38a1b3b2f62bc1ef8b3c37b55f7a",
+          "to_token_address": "0x4200000000000000000000000000000000000006",
+          "from_token_amount": "12.911095126843",
+          "to_token_amount": "0.0001774766",
+          "price_from_in_usd": "0.0329814551949725",
+          "price_to_in_usd": "2399.34",
+          "price_from_in_currency_token": "0.0000137460531625249",
+          "price_to_in_currency_token": "1.0",
+          "volume_in_usd": "0.425826705444"
+        }
+      },
+      {
+        "id": "base_52694187_0x906b58249f46663950078105426edf2db145d406d418a69c070ac39f6fa64d85_395_1792177741",
+        "type": "trade",
+        "attributes": {
+          "block_number": 52694187,
+          "block_timestamp": "2026-10-16T19:08:41Z",
+          "tx_hash": "0x906b58249f46663950078105426edf2db145d406d418a69c070ac39f6fa64d85",
+          "tx_from_address": "0xd80386a7f804b8c479704402caec8c50d3c412e7",
+          "kind": "buy",
+          "from_token_address": "0x4200000000000000000000000000000000000006",
+          "to_token_address": "0xd86a66c9438a38a1b3b2f62bc1ef8b3c37b55f7a",
+          "from_token_amount": "0.0001385595",
+          "to_token_amount": "10.0195455767463",
+          "price_from_in_usd": "2399.34",
+          "price_to_in_usd": "0.0331802822975889",
+          "price_from_in_currency_token": "1.0",
+          "price_to_in_currency_token": "0.0000138289205771541",
+          "volume_in_usd": "0.33245135073"
+        }
+      },
+      {
+        "id": "base_52694179_0xb793a2d4174d5b110f93476c8ad55fb001845c51bd5678ab8dce3a52515afca1_1107_1792177716",
+        "type": "trade",
+        "attributes": {
+          "block_number": 52694179,
+          "block_timestamp": "2026-10-16T19:08:25Z",
+          "tx_hash": "0xb793a2d4174d5b110f93476c8ad55fb001845c51bd5678ab8dce3a52515afca1",
+          "tx_from_address": "0x78f7d063f645527b6cf8c16350cb263cdb7d2ddd",
+          "kind": "sell",
+          "from_token_address": "0xd86a66c9438a38a1b3b2f62bc1ef8b3c37b55f7a",
+          "to_token_address": "0x4200000000000000000000000000000000000006",
+          "from_token_amount": "8.87440217146727",
+          "to_token_amount": "0.0001219881",
+          "price_from_in_usd": "0.0329891789366129",
+          "price_to_in_usd": "2399.9",
+          "price_from_in_currency_token": "0.0000137460639762544",
+          "price_to_in_currency_token": "1.0",
+          "volume_in_usd": "0.29275924119"
+        }
+      },
+      {
+        "id": "base_52694172_0x9505b903845a5a5e7b639ed2e6ab8d5deece1d20655a34ad935b84e4461199f4_291_1792177713",
+        "type": "trade",
+        "attributes": {
+          "block_number": 52694172,
+          "block_timestamp": "2026-10-16T19:08:11Z",
+          "tx_hash": "0x9505b903845a5a5e7b639ed2e6ab8d5deece1d20655a34ad935b84e4461199f4",
+          "tx_from_address": "0x4654323d77034261bfdc3ccdac37bdf7f2c69250",
+          "kind": "buy",
+          "from_token_address": "0x4200000000000000000000000000000000000006",
+          "to_token_address": "0xd86a66c9438a38a1b3b2f62bc1ef8b3c37b55f7a",
+          "from_token_amount": "0.0001708597",
+          "to_token_amount": "12.3552719236759",
+          "price_from_in_usd": "2399.9",
+          "price_to_in_usd": "0.0331879538194741",
+          "price_from_in_currency_token": "1.0",
+          "price_to_in_currency_token": "0.0000138288902952099",
+          "volume_in_usd": "0.41004619403"
+        }
+      },
+      {
+        "id": "base_52694164_0x501d6f8811720c190d492afdedd043e84182fe631553031dfc7d9ead4d77b939_783_1792177695",
+        "type": "trade",
+        "attributes": {
+          "block_number": 52694164,
+          "block_timestamp": "2026-10-16T19:07:55Z",
+          "tx_hash": "0x501d6f8811720c190d492afdedd043e84182fe631553031dfc7d9ead4d77b939",
+          "tx_from_address": "0x97c200d4a24482c994745da111cba0d14181ad91",
+          "kind": "sell",
+          "from_token_address": "0xd86a66c9438a38a1b3b2f62bc1ef8b3c37b55f7a",
+          "to_token_address": "0x4200000000000000000000000000000000000006",
+          "from_token_amount": "7.33953396583069",
+          "to_token_amount": "0.0001008893",
+          "price_from_in_usd": "0.0329972946208158",
+          "price_to_in_usd": "2400.5",
+          "price_from_in_currency_token": "0.0000137460090067968",
+          "price_to_in_currency_token": "1.0",
+          "volume_in_usd": "0.24218476465"
+        }
+      }
+    ]
+  }
+}

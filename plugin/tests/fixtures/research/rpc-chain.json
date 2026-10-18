@@ -1,0 +1,13 @@
+{
+  "url": "https://mainnet.base.org",
+  "requestedAt": "2026-10-16T19:08:56.735032+00:00",
+  "receivedAt": "2026-10-16T19:08:57.569633+00:00",
+  "elapsedMs": 835,
+  "httpStatus": 200,
+  "bodySha256": "395c4282d446999297cdcba9e50c3df13687008bc4eecc206a5d616be7f6d227",
+  "body": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": "0x2105"
+  }
+}

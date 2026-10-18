@@ -1,0 +1,66 @@
+{
+  "url": "https://api.dexscreener.com/token-pairs/v1/base/0xb6482bf6b049ec839e727098d75a6fa2dbd79f09",
+  "requestedAt": "2026-10-16T19:10:44.539642+00:00",
+  "receivedAt": "2026-10-16T19:09:16.345131+00:00",
+  "elapsedMs": 503,
+  "httpStatus": 200,
+  "bodySha256": "6619eb675ec00bd813390eb023e5906c1403ea5d134385216a9cb2fcde219034",
+  "body": [
+    {
+      "chainId": "base",
+      "dexId": "uniswap",
+      "url": "https://dexscreener.com/base/0x2c6e418127b1514a717d6e19f1a739c429cb8b9e",
+      "pairAddress": "0x2C6e418127B1514a717D6e19f1A739c429cB8B9e",
+      "labels": [
+        "v2"
+      ],
+      "baseToken": {
+        "address": "0xB6482bF6B049Ec839e727098d75a6fA2DBD79f09",
+        "name": "X1000XLiquidBGT",
+        "symbol": "LIQUIDBGT"
+      },
+      "quoteToken": {
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Wrapped Ether",
+        "symbol": "WETH"
+      },
+      "priceNative": "0.000000000000000009964",
+      "priceUsd": "0.00000000000002397",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 32,
+          "sells": 6
+        },
+        "h6": {
+          "buys": 32,
+          "sells": 6
+        },
+        "h24": {
+          "buys": 32,
+          "sells": 6
+        }
+      },
+      "volume": {
+        "h24": 1069.64,
+        "h6": 1069.64,
+        "h1": 1069.64,
+        "m5": 0
+      },
+      "priceChange": {
+        "h1": -100,
+        "h6": -100,
+        "h24": -100
+      },
+      "liquidity": {
+        "usd": 0,
+        "base": 1872896539,
+        "quote": 1.866e-8
+      },
+      "pairCreatedAt": 1792175501000
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "url": "https://api.0x.org/swap/allowance-holder/price?chainId=8453&sellToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&buyToken=0x4200000000000000000000000000000000000006&sellAmount=25000000",
+  "requestedAt": "2026-10-16T19:09:32.487983+00:00",
+  "receivedAt": "2026-10-16T19:09:33.478796+00:00",
+  "elapsedMs": 991,
+  "httpStatus": 200,
+  "bodySha256": "a7e6cf34a8b51174ac76f3c2c20a5dccb44e25fde51f070634fee7b67a2ac5e6",
+  "body": {
+    "allowanceTarget": "0x0000000000001ff3684f28c67538d4d072c22734",
+    "blockNumber": "52694213",
+    "buyAmount": "10387968494650418",
+    "buyToken": "0x4200000000000000000000000000000000000006",
+    "fees": {
+      "integratorFee": null,
+      "integratorFees": null,
+      "zeroExFee": {
+        "amount": "37500",
+        "token": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "type": "volume"
+      },
+      "gasFee": null
+    },
+    "issues": {
+      "allowance": {
+        "actual": "0",
+        "spender": "0x0000000000001ff3684f28c67538d4d072c22734"
+      },
+      "balance": {
+        "token": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "actual": "0",
+        "expected": "25000000"
+      },
+      "simulationIncomplete": false,
+      "invalidSourcesPassed": []
+    },
+    "liquidityAvailable": true,
+    "minBuyAmount": "10284088809703914",
+    "mode": "exact-in",
+    "route": {
+      "fills": [
+        {
+          "from": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+          "to": "0x4200000000000000000000000000000000000006",
+          "source": "PancakeSwap_V3",
+          "proportionBps": "10000"
+        }
+      ],
+      "tokens": [
+        {
+          "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+          "symbol": "USDC"
+        },
+        {
+          "address": "0x4200000000000000000000000000000000000006",
+          "symbol": "WETH"
+        }
+      ]
+    },
+    "sellAmount": "25000000",
+    "sellToken": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "tokenMetadata": {
+      "buyToken": {
+        "buyTaxBps": "0",
+        "sellTaxBps": "0",
+        "transferTaxBps": "0"
+      },
+      "sellToken": {
+        "buyTaxBps": "0",
+        "sellTaxBps": "0",
+        "transferTaxBps": "0"
+      }
+    },
+    "totalNetworkFee": "2358880117824",
+    "zid": "0xdc9ee9bacceb0001543b3cab",
+    "gas": "317516",
+    "gasPrice": "7413877"
+  }
+}

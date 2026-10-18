@@ -1,0 +1,69 @@
+{
+  "url": "https://api.dexscreener.com/token-pairs/v1/base/0xd86a66c9438a38a1b3b2f62bc1ef8b3c37b55f7a",
+  "requestedAt": "2026-10-16T19:09:01.466423+00:00",
+  "receivedAt": "2026-10-16T19:09:02.428718+00:00",
+  "elapsedMs": 962,
+  "httpStatus": 200,
+  "bodySha256": "56b83872bed2ad67dd8bd6cb7ba3e3f02660937d6da6fcc635df8d0282e69991",
+  "body": [
+    {
+      "chainId": "base",
+      "dexId": "uniswap",
+      "url": "https://dexscreener.com/base/0xc72f769d67e4636ce78e7053fd0d8c54cf9dd89c693c074842aac173fb8cfb78",
+      "pairAddress": "0xc72f769d67e4636ce78e7053fd0d8c54cf9dd89c693c074842aac173fb8cfb78",
+      "labels": [
+        "v4"
+      ],
+      "baseToken": {
+        "address": "0xD86a66C9438a38A1b3B2F62bc1EF8b3C37B55F7a",
+        "name": "United States Dividend Program🔥",
+        "symbol": "USDP"
+      },
+      "quoteToken": {
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Wrapped Ether",
+        "symbol": "WETH"
+      },
+      "priceNative": "0.00001378",
+      "priceUsd": "0.03308",
+      "txns": {
+        "m5": {
+          "buys": 9,
+          "sells": 8
+        },
+        "h1": {
+          "buys": 69,
+          "sells": 50
+        },
+        "h6": {
+          "buys": 69,
+          "sells": 50
+        },
+        "h24": {
+          "buys": 69,
+          "sells": 50
+        }
+      },
+      "volume": {
+        "h24": 32531.92,
+        "h6": 32531.92,
+        "h1": 32531.92,
+        "m5": 5.86
+      },
+      "priceChange": {
+        "m5": -0.31,
+        "h1": 14.33,
+        "h6": 14.33,
+        "h24": 14.33
+      },
+      "liquidity": {
+        "usd": 71353.46,
+        "base": 1184488,
+        "quote": 13.4075
+      },
+      "fdv": 318302056,
+      "marketCap": 318302056,
+      "pairCreatedAt": 1792176009000
+    }
+  ]
+}

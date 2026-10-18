@@ -1,0 +1,20 @@
+{
+  "cases": [
+    {
+      "selection": "highest_reported_h1_volume",
+      "token": "0x8840f29ff076b07ddc8eb6c88cb956aabfe385c1"
+    },
+    {
+      "selection": "highest_reported_liquidity",
+      "token": "0xd86a66c9438a38a1b3b2f62bc1ef8b3c37b55f7a"
+    },
+    {
+      "selection": "lowest_positive_liquidity_active",
+      "token": "0xb6482bf6b049ec839e727098d75a6fa2dbd79f09"
+    },
+    {
+      "selection": "established_control",
+      "token": "0x4200000000000000000000000000000000000006"
+    }
+  ]
+}
