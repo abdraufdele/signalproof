@@ -103,7 +103,7 @@ The optional purchase proposal names an `api.messari.io` Ethereum-context resour
 
 ## Installation on PayBox
 
-1. Clone the [private repository](https://github.com/abdraufdele/signalproof) using an account with access:
+1. Clone the [repository](https://github.com/abdraufdele/signalproof):
 
    ```sh
    git clone https://github.com/abdraufdele/signalproof.git
@@ -259,10 +259,10 @@ The three saved **0.6.0 installed-agent** research calls succeeded on 17 October
 - Optional paid context is broad Ethereum research; token-specific relevance and a completed paid-response workflow have not been demonstrated.
 - **Open evidence checks:** installed-agent timestamps lagged local receipt by about 90 seconds. Delivery-time freshness remains unverified. The MCP responses did not attest the deployed version/hash; installation-to-portal mapping needs confirmation.
 - **Remaining delivery work:** genuine user feedback, a reviewed recorded demo and the required X video publication. No participant usefulness claim is established yet.
-- **TODO:** choose a source-code license and add a public contact route. No source license is granted by this README.
+- **TODO:** add a public contact route.
 
 ## License and contact
 
-**License: TODO — owner decision required.** No root LICENSE file has been created. The included Inter font notice applies to the wordmark's font source, not SignalProof code. Third-party starter/dependency license terms still apply.
+**License: [MIT](LICENSE).** SignalProof source code is available under the MIT License. The included Inter font notice applies to the wordmark's font source. Third-party starter/dependency license terms still apply.
 
 **Contact: TODO — owner-approved contact or repository issue URL.** Do not use project API keys, wallet addresses or private account details as contact information.
